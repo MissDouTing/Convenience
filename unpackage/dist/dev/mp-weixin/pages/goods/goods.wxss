@@ -1,0 +1,16 @@
+.hot_goods {
+  background: #eee;
+}
+.hot_goods .tit {
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  color: blue;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 20px;
+  background: #fff;
+}
+

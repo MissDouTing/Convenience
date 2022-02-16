@@ -1,0 +1,32 @@
+swiper {
+  width: 100%;
+  height: 422rpx;
+}
+swiper image {
+  width: 100%;
+}
+.uni-grid-item {
+  text-align: center;
+  /* /deep/叫样式穿透：允许样式作用到当前组件的子孙组件中  */
+}
+.uni-grid-item .uni-grid-item__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hot_goods {
+  background: #eee;
+}
+.hot_goods .tit {
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  color: blue;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 20px;
+  background: #fff;
+}
+
